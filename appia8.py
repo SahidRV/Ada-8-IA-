@@ -27,7 +27,7 @@ st.markdown("""
     border-radius:18px;
     border:1px solid #e6e6e6;
     line-height:1.7;
-    font-size:18px;
+    font-size:22px;
     max-width:900px;
     margin:auto;
 }
