@@ -27,13 +27,16 @@ st.markdown("""
     border-radius:18px;
     border:1px solid #e6e6e6;
     line-height:1.7;
-    font-size:17px;
+    font-size:18px;
+    max-width:900px;
+    margin:auto;
 }
 
 .section-title{
     font-size:22px;
     font-weight:600;
     margin-top:25px;
+    text-align:center;
 }
 
 </style>
