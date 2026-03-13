@@ -46,65 +46,43 @@ st.markdown("""
 
 st.markdown('<div class="main-title">¿Doctor Algoritmo? Los desafíos reales de la Inteligencia Artificial en nuestra salud</div>', unsafe_allow_html=True)
 
-st.markdown(
-'<div class="motivational">La tecnología puede ampliar nuestras capacidades, pero la responsabilidad de cuidar la vida siempre seguirá siendo humana.</div>',
-unsafe_allow_html=True
-)
-
-# ---------------------------
-# Artículo
-# ---------------------------
-
 st.markdown("""
 <div class="article-box">
 
-La promesa de una medicina de precisión, donde las máquinas nos ayuden a vivir más y mejor, parece estar a la vuelta de la esquina. 
-Sin embargo, el paso del laboratorio al consultorio es más complejo de lo que sugieren los titulares.
+La promesa de una medicina de precisión, donde las máquinas nos ayuden a vivir más y mejor, parece estar a la vuelta de la esquina. Sin embargo, el paso del laboratorio al consultorio es más complejo de lo que sugieren los titulares.
 
 <div class="section-title">1. Más que simples computadoras: La infraestructura invisible</div>
 
-Cuando hablamos de Inteligencia Artificial (IA) en el ámbito sanitario, no nos referimos a robots humanoides, sino a algoritmos capaces de procesar enormes volúmenes de datos. 
-El objetivo es facilitar diagnósticos tempranos, reducir tareas administrativas y personalizar tratamientos.
+Cuando hablamos de Inteligencia Artificial (IA) en el ámbito sanitario, no nos referimos a robots humanoides, sino a algoritmos complejos capaces de procesar volúmenes de datos que el cerebro humano no podría abarcar en una vida entera. El objetivo principal es claro: facilitar diagnósticos tempranos, reducir la carga de tareas administrativas que agotan a los médicos y personalizar los tratamientos (Ahmed et al., 2023).
 
-Sin embargo, para que un algoritmo funcione correctamente primero debe ser entrenado con datos de calidad. 
-Aquí aparece uno de los mayores límites: muchos hospitales aún no cuentan con sistemas estandarizados de almacenamiento de información.
+Sin embargo, para que un algoritmo sea inteligente, primero debe ser "entrenado". Aquí es donde aparece el primer gran límite: la calidad de los datos. Muchos hospitales aún carecen de sistemas estandarizados para almacenar información.
 
-Imagine que la IA es un motor de última generación, pero el combustible que recibe —los datos médicos— está contaminado o es insuficiente. 
-La falta de interoperabilidad entre sistemas hospitalarios impide que la información clínica pueda compartirse de forma eficiente.
+Imagine que la IA es un motor de última generación, pero el combustible que recibe (los datos de los pacientes) está contaminado o es insuficiente. La falta de interoperabilidad —la capacidad de que diferentes sistemas informáticos se entiendan entre sí— es una de las barreras más críticas identificadas por los líderes del sector (He et al., 2019). Si los datos de una clínica no pueden leerse en otra, la IA pierde su capacidad de ofrecer una visión global de la salud del paciente.
 
-Además, implementar estas tecnologías requiere una infraestructura costosa y medidas sólidas de ciberseguridad para proteger datos sensibles. 
-Por ello, adoptar IA no es solo instalar software, sino transformar profundamente la arquitectura digital de los sistemas de salud.
+Además, la implementación requiere una infraestructura costosa y una ciberseguridad robusta para evitar filtraciones de datos sensibles, algo que no todos los sistemas de salud están preparados para costear. La adopción no es solo una cuestión de software, sino de una transformación profunda de la arquitectura digital de nuestras instituciones médicas (Petersson et al., 2022).
 
 <div class="section-title">2. El factor humano: ¿Se puede programar la empatía?</div>
 
-Uno de los debates más intensos surge en el campo de la salud mental. 
-La IA ha demostrado capacidad para identificar patrones de comportamiento y detectar señales tempranas de depresión o riesgo suicida mediante el análisis de datos digitales.
+Uno de los debates más profundos ocurre en el campo de la salud mental. La IA ha demostrado ser sorprendentemente hábil para predecir patrones de conducta, identificar riesgos de depresión o incluso anticipar crisis suicidas mediante el análisis de la actividad digital de una persona (Biscaia Fernández et al., 2023; Rojas Chacón, 2025).
 
-Sin embargo, la psicología clínica recuerda que el tratamiento humano no es una ecuación matemática. 
-Un terapeuta interpreta silencios, percibe matices emocionales y comprende contextos personales que los algoritmos aún no logran captar completamente.
+No obstante, la psicología clínica nos recuerda que el tratamiento de un ser humano no es una ecuación matemática. El límite fundamental de la IA en este terreno es su incapacidad para alcanzar la empatía verdadera. En una terapia, un psicólogo no solo escucha palabras; interpreta silencios, detecta el sarcasmo, la ironía y capta matices emocionales sutiles que un algoritmo, por avanzado que sea, tiende a ignorar (Quirós Valverde et al., 2024).
 
-Existe el riesgo de que una dependencia excesiva de la tecnología conduzca a la deshumanización de la atención. 
-La relación médico-paciente es en sí misma parte del proceso terapéutico.
+Existe un riesgo tangible de deshumanización si permitimos que las máquinas tomen el control total de la interacción clínica. La relación médico-paciente es un proceso terapéutico en sí mismo, y la sustitución de este vínculo por interfaces digitales podría erosionar la confianza y la calidez necesarias para la recuperación.
+
+Los expertos advierten que una dependencia excesiva de estas herramientas podría atrofiar el juicio clínico de los nuevos profesionales, quienes podrían dejar de confiar en su intuición y experiencia para ceder ante la "decisión" de una pantalla (Salazar-Garcés & Velastegui-Hernandez, 2024; López Zúñiga & Rodríguez Zúñiga, 2024).
 
 <div class="section-title">3. Ética y responsabilidad: El laberinto de los algoritmos</div>
 
-Los algoritmos tampoco son completamente objetivos. 
-Aprenden de datos históricos que pueden contener sesgos sociales o culturales.
+Finalmente, entramos en el terreno de la ética y la legalidad. Los algoritmos no son entes objetivos; son creados por humanos y aprenden de datos históricos que ya pueden contener prejuicios. Esto se conoce como sesgo algorítmico. Si una IA se entrena con datos mayoritariamente de un grupo étnico o social específico, sus diagnósticos podrían ser menos precisos para otros grupos, perpetuando injusticias en el acceso a la salud (Mennella et al., 2024).
 
-Si una IA se entrena con información de un grupo poblacional específico, sus diagnósticos podrían ser menos precisos para otros grupos. 
-Esto podría perpetuar desigualdades en el acceso a la salud.
+La justicia y la equidad son límites éticos que requieren una vigilancia constante y una regulación estricta que aún está en desarrollo. A esto se suma la "caja negra": a veces, ni siquiera los programadores saben exactamente por qué una IA llegó a una conclusión determinada. En medicina, donde un error puede costar una vida, esta falta de transparencia es inaceptable.
 
-Además, muchos sistemas funcionan como una "caja negra": incluso los desarrolladores pueden tener dificultades para explicar exactamente cómo el algoritmo llegó a una conclusión.
+Surge entonces el dilema de la responsabilidad: si un sistema automatizado recomienda un tratamiento erróneo, ¿de quién es la culpa? (Li et al., 2024). El marco legal actual todavía lucha por definir si la responsabilidad recae en el médico que validó la sugerencia, en la empresa que desarrolló el software o en el hospital que lo implementó.
 
-En medicina, donde un error puede costar una vida, esta falta de transparencia plantea dilemas importantes. 
-Si un sistema automatizado recomienda un tratamiento incorrecto, surge la pregunta inevitable: ¿quién es responsable?
-
-Por ello, la Inteligencia Artificial debe entenderse como una herramienta de apoyo para los profesionales de la salud, 
-no como un sustituto del juicio humano.
+Por ello, la IA debe verse como una herramienta de apoyo, no como un sustituto del juicio humano. El desafío futuro no es tecnológico, sino humano: establecer reglas claras que aseguren que la tecnología siempre actúe en beneficio del paciente, respetando su autonomía y privacidad en todo momento.
 
 </div>
 """, unsafe_allow_html=True)
-
 
 # ---------------------------
 # Referencias desplegables
