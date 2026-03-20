@@ -50,7 +50,56 @@ st.markdown("""
 st.markdown('<div class="main-title">¿Doctor Algoritmo? Los desafíos reales de la Inteligencia Artificial en nuestra salud</div>', unsafe_allow_html=True)
 
 st.markdown("""
-<div class="article-box">
+<style>
+
+.article-box{
+    padding:35px;
+    border-radius:18px;
+    border:1px solid #e6e6e6;
+    line-height:1.8;
+    font-size:18px;
+    max-width:900px;
+    margin:auto;
+    text-align:justify;
+}
+
+/* MODO CLARO */
+@media (prefers-color-scheme: light) {
+    .article-box{
+        background-color:#ffffff;
+        color:#222222;
+    }
+}
+
+/* MODO OSCURO */
+@media (prefers-color-scheme: dark) {
+    .article-box{
+        background-color:#1e1e1e;
+        color:#f5f5f5;
+        border:1px solid #333;
+    }
+}
+
+.section-title{
+    font-size:22px;
+    font-weight:600;
+    margin-top:25px;
+    text-align:center;
+}
+
+.main-title{
+    font-size:42px;
+    font-weight:700;
+}
+
+.motivational{
+    text-align:right;
+    font-style:italic;
+    margin-bottom:30px;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 La promesa de una medicina de precisión, donde las máquinas nos ayuden a vivir más y mejor, parece estar a la vuelta de la esquina. Sin embargo, el paso del laboratorio al consultorio es más complejo de lo que sugieren los titulares.
 
